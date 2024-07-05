@@ -1,0 +1,48 @@
+/* src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 90%;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
